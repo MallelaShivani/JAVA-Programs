@@ -1,6 +1,6 @@
 package xyz;
 
-public class MergeSort {
+public class Linearthmicex {
 	void merge(int arr[],int left,int mid,int right) {
 		int n1=mid-left +1;
 		int n2=right-mid;
@@ -55,7 +55,7 @@ public class MergeSort {
 		int arr[]= {12,11,13,5,6,7};
 		System.out.println("Originalarray");
 		printarray(arr);
-		MergeSort ob=new MergeSort();
+		Linearthmicex ob=new Linearthmicex();
 		ob.sort(arr,0,arr.length-1);
 		System.out.println("sorted array");
 		printarray(arr);
